@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GOA</string>
+    <string name="price_format">₹%.0f per kg</string>
+
+    <!-- Address Labels -->
+    <string-array name="address_labels">
+        <item>Home</item>
+        <item>Office</item>
+        <item>Other</item>
+    </string-array>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gap">
+
+    <!-- Internet permission for maps -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="GOA"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAOVYRIgupAurZup5y1PRh8Ismb1A3lLao" />
+
+        <!-- Splash Activity as Launcher -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <!-- Register Activity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <!-- Address Setup Activity -->
+        <activity
+            android:name=".AddressSetupActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <!-- Address Management Activity -->
+        <activity
+            android:name=".AddressManagementActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Add Address Activity -->
+        <activity
+            android:name=".AddAddressActivity"
+            android:exported="false"
+            android:parentActivityName=".AddressManagementActivity" />
+
+        <!-- Map Location Activity -->
+        <activity
+            android:name=".MapLocationActivity"
+            android:exported="false"
+            android:parentActivityName=".AddAddressActivity" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- Cart Activity -->
+        <activity
+            android:name=".CartActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Past Orders Activity -->
+        <activity
+            android:name=".PastOrdersActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Order Details Activity -->
+        <activity
+            android:name=".OrderDetailsActivity"
+            android:exported="false"
+            android:parentActivityName=".PastOrdersActivity" />
+
+    </application>
+
+</manifest>
