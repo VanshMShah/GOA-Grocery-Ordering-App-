@@ -39,3 +39,7 @@ A modern, user-friendly Android application designed to streamline the grocery s
 ## 👤 Author
 
 * **Vansh Shah** - [GitHub Profile](https://github.com/VanshMShah)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
