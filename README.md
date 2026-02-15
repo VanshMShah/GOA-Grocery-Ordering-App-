@@ -21,9 +21,10 @@ A modern, user-friendly Android application designed to streamline the grocery s
 
 ## 📸 Screenshots
 
-| Home Screen | Product Details | My Cart |
+| Login | Home Screen | My Cart |
 | :---: | :---: | :---: |
-| ![Home](https://via.placeholder.com/200x400?text=Home+UI) | ![Details](https://via.placeholder.com/200x400?text=Details+UI) | ![Cart](https://via.placeholder.com/200x400?text=Cart+UI) |
+| <img width="368" height="807" alt="Screenshot 2026-02-15 171730" src="https://github.com/user-attachments/assets/7b6ca1c0-bc6f-4bb0-bc9b-e8b030d283a8" />| ![Details](https://via.placeholder.com/200x400?text=Details+UI) | ![Cart](https://via.placeholder.com/200x400?text=Cart+UI) |
+
 
 ## ⚙️ Installation
 
@@ -45,7 +46,3 @@ A modern, user-friendly Android application designed to streamline the grocery s
 ## 👤 Author
 
 * **Vansh Shah** - [GitHub Profile](https://github.com/VanshMShah)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
